@@ -1,0 +1,9 @@
+
+{
+    "reporter": "cypress-multi-reporters",
+    "timeout": 90000,
+    "baseUrl":"https://www.aviasales.com",
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
+    }
+}

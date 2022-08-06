@@ -1,0 +1,33 @@
+{
+  "name": "cy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open --browser chrome",
+    "cy:test:chrome": "npx cypress run --browser chrome",
+    "cy:test:firefox": "npx cypress run --browser firefox",
+    "cy:info": "npx cypress info",
+    "report:merge": "mochawesome-merge cypress/results/json/*.json > index.json",
+    "report:generate": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelicalima/luxoft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelicalima/luxoft/issues"
+  },
+  "homepage": "https://github.com/angelicalima/luxoft#readme",
+  "dependencies": {
+    "cypress": "^9.7.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.1.0",
+    "cypress-multi-reporters": "^1.6.0",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
