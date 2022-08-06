@@ -1,0 +1,21 @@
+Test task Luxoft
+Task: implement web UI auto test for ticket search
+To do:
+
+Navigate to  https://www.aviasales.com/
+Enable Night Theme
+For FROM field set NEW York, Kennedy airport
+For TO field set Berlin
+For DATE field set August, 30 
+No returning ticket
+Passengers – 2
+Click search flight
+Assert that:
+
+New search page is opened
+All previous data is displayed on the new page
+Additional:
+
+Browser - Chrome
+Use JavaScript + framework you prefer (playwright as plus)
+Use public GIT (github, gitlab) repo to share results
