@@ -25,7 +25,6 @@ class searchFlightElements{
 
     }
 
-
     selectPassangerAndClass(adultsNumber, childrenNumber, infantsNumber, classType){
         this.passangerField().click();
         for(var i=1; i<adultsNumber; i++){
@@ -40,7 +39,6 @@ class searchFlightElements{
         cy.get('input[name='+classType+']').type("{esc}", {force: true})
     }
 
-    
     setDepartureDateInput(departureDate){
         const date = new Date(`${departureDate}, 1970`);
         const monthLong = date.toLocaleString('en-US', { month: 'long' });
