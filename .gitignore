@@ -1,14 +1,14 @@
 # Logs
 logs
 *.log
-.DS_Store
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 cypress/videos/*
 cypress/results/*
-
+.DS_Store
+cypress/.DS_Store
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
