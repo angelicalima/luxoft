@@ -1,6 +1,6 @@
 # cy
-Given Cypress does't support working with mutltiple tabs, I was not abble to write a proper test using this tool.
-I Tried several workarownds, but none worked given that the new tab is fired toguether a redirect in the main tab.
+Given Cypress does't support working with mutltiple tabs, I was not able to write a proper test using this tool.
+I Tried several workarownds, but none worked given that the new tab is fired together a redirect in the main tab.
 
 The Cypress documentation says:
 "Because Cypress runs in the browser, it will never have multi-tabs support. We do have access to the browser automation APIs to actually switch tabs, but there is no reason for us to ever expose them.
